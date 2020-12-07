@@ -52,14 +52,6 @@ function reset() {
   });
 }
 
-function getDataLength() {
-  return jsonObj[0].length;
-}
-function setDataLength(l) {
-  jsonObj[0].length = l;
-  console.log('set:' + l);
-}
-
 function getSearchText() {
   const info = getInfo();
   let stepCount = 0;
@@ -85,7 +77,5 @@ function pushSearchText(arg) {
 module.exports = {
   add,
   reset,
-  getDataLength,
-  setDataLength,
   pushSearchText
 }
