@@ -1,0 +1,43 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Googlee
+    link(rel="stylesheet" href="style.css")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css")
+  body
+    header
+      ul
+        li Googleeについて
+        li ストア
+      div(class="blank")
+      ul
+        li Gmail
+        li 画像
+        li <i class="fas fa-th"></i>
+
+    div(id="main")
+      div(id="cvs-wrapper")
+      form(method="post" name="form" autocomplete="off")
+        div(class="input-wrapper")
+          <i class="fas fa-search"></i>
+          input(name="content")
+      div(class="btn-wrapper")
+        button(type="submit" class="btn search") Googlee 検索
+        button(class="btn ghost") I'm Feeling Better
+
+    footer
+      ul
+        li 日本
+      div
+        ul
+          li プライバシー
+          li 規約
+          li 設定
+        div(class="blank")
+        ul
+          li 広告
+          li ビジネス
+          li 検索の仕組み
+
+    script(src="script.js")

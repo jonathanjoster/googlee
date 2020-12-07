@@ -1,0 +1,11 @@
+{
+  "name": "googlee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "googlee": "./googlee/",
+    "pug": "^3.0.0"
+  }
+}

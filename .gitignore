@@ -1,0 +1,5 @@
+node_modules/
+dist/
+view/dist/
+view/style.css.map
+view/style.scss
